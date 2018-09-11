@@ -1,6 +1,20 @@
 import pandas as pd
 import numpy as np
 
+'''=============================================
+            pandas
+series:一维数据结构
+dataframe:二维数据结构
+
+
+
+
+
+================================================'''
+
+
+
+
 
 df =pd.DataFrame(np.random.randn(6,4),columns=list('ABCD'))  #创建多维数组
 print df
